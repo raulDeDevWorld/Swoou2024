@@ -1,0 +1,41 @@
+.button {
+    cursor: pointer;
+    font-size: 12px;
+
+    width: 130px;
+    height: 35px;
+    margin: 2px;
+    padding: 5px 1px; 
+    border-radius: 1px;        
+ 
+    transition-duration: .5s;
+}
+.buttonPrimary {
+    color: white;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+.buttonPrimary:hover {
+    color: #000000;
+    background-color: white;
+    border: 1px solid #000000;
+}
+.buttonSecondary {
+    color: #000000;
+    background-color: white;
+    border: 1px solid #000000;
+}
+.buttonSecondary:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+.buttonSpecial {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 52, 80, .7);
+    /* background-image: url(../public/whatsapp.svg); */
+    background-repeat: no-repeat;
+    background-position: 5px 3px;
+    background-size: 18px; 
+}

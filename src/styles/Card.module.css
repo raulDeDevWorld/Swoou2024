@@ -1,0 +1,15 @@
+.card {
+    border: 1px solid #636363;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px #636363;
+    
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 300px;
+  }
+  .buttonsBoxCard {
+    display: flex;
+  }
