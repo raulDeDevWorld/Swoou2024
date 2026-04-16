@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://swoou.com"/>
         <title>Swoou</title>
-      </head>
+      </head>        
       <body className={inter.className}>
       <Navbar />
         {children}</body>
