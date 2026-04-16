@@ -30,7 +30,7 @@ export default function Home() {
             <a href="#Productos"><Button theme={'Primary'} click={() => router.push('#productos')}>Productos</Button></a> 
             <a href="#Servicios"><Button theme={'Secondary'} click={() => router.push('#servicios')}>Servicios</Button></a> 
           </div>
-        </div>
+        </div>       
        
 
       </section>
